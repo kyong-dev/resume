@@ -363,6 +363,7 @@ content:
         description: |
           Shopify기반 쇼핑몰 구축 / 데이터 가공 자동화 등 호주에서 외주 개발자로 활동하며 다양한 프로젝트를 진행하였습니다.
 
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -373,7 +374,27 @@ content:
         quote: >
           I learnt a lot about networks and software engineering during my time at RMIT
         description: | 
-          사용자는 3.8/4.0 GPA로 졸업하며, 다양한 IT 관련 과목들을 우수한 성적으로 수료했습니다. 주요 과목들은 프로그래밍, 네트워킹, 보안, 데이터베이스, 소프트웨어 공학, 알고리즘 등과 관련된 내용들이 포함되어 있습니다.
+          저는 3.8/4.0 GPA로 졸업하며, 다양한 IT 관련 과목들을 우수한 성적으로 수료했습니다. 주요 과목들은 프로그래밍, 네트워킹, 보안, 데이터베이스, 소프트웨어 공학, 알고리즘 등과 관련된 내용들이 포함되어 있습니다.
+
+
+  - title: Open Source # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Django Unfold Package Custom
+        link: https://pypi.org/project/django-unfold-patrick/
+        link_text: django-unfold-patrick
+        sub_title: 장고 어드민 테마 커스터마이징 패키지 고도화
+        description: | 
+          Unfold 테마를 즐겨 사용하지만 몇몇 기능이 미흡하다고 생각하여 Django Unfold 패키지를 커스터마이징하여 사용하고 있습니다. 주요 기능으로는 Django Admin Logging을 강화하고, 필터 기능에 대한 개선 등이 있습니다.
+
+      - layout: left
+        title: Customs ID Number Validator
+        link: https://pypi.org/project/customs-id-number-validator/
+        link_text: customs-id-number-validator
+        sub_title: 관세청 통관번호 유효성 검사 패키지
+        description: | 
+          과거에 관세청 통관번호 유효성 검사를 위해 직접 개발한 패키지입니다. 누군가 필요로 할 수 있을 것 같아 패키지로 제작해 공개하였습니다.
 
   - title: A Little More About Me
     layout: text
